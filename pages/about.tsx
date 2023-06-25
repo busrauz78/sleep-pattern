@@ -1,8 +1,15 @@
+import Layout from "@/components/layout";
+import React from "react";
+
 export default function About() {
   return (
-    <div>
-      <h1>What is a Chronotype?</h1>
-      <p>
+    <Layout>
+      <div className="mb-5">
+      <h1 className="font-bold">What is a Chronotype?</h1>
+
+      </div>
+      <div className="max-w-3xl">
+      <p className="text-center">
         A chronotype is your body’s natural disposition to be awake or asleep at
         certain times. Your chronotype is closely related to your body’s
         circadian rhythm, which controls your body’s sleep-wake cycle and
@@ -15,6 +22,8 @@ export default function About() {
         work with your chronotype rather than against it if you want to be as
         rested and productive as possible.
       </p>
-    </div>
+      </div>
+    
+    </Layout>
   );
 }
