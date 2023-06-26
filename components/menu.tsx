@@ -5,7 +5,7 @@ export default function Menu() {
   return (
     <div className="flex mt-4 ml-4">
       <Link href="/" className="border rounded-md p-5">
-        Chronotype Doctor
+        CHRONOTYPE DOCTOR
       </Link>
     </div>
   )
