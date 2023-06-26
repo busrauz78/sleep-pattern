@@ -4,11 +4,11 @@ import React from "react";
 export default function About() {
   return (
     <Layout>
-      <div className="mb-5">
+      <div className="flex flex-col justify-center items-center gap-5">
+      <div className="max-w-3xl text-center">
+
       <h1 className="font-bold">What is a Chronotype?</h1>
 
-      </div>
-      <div className="max-w-3xl">
       <p className="text-center">
         A chronotype is your body’s natural disposition to be awake or asleep at
         certain times. Your chronotype is closely related to your body’s
@@ -23,7 +23,8 @@ export default function About() {
         rested and productive as possible.
       </p>
       </div>
-    
+
+      </div>
     </Layout>
   );
 }
