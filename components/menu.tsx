@@ -8,7 +8,6 @@ export default function Menu() {
         CHRONOTYPE DOCTOR
       </Link>
       <div className="flex gap-5">
-        <Link className="border rounded-md p-5" href="/about">ABOUT</Link>
         <Link className="border rounded-md p-5" href="/chronotypes">CHRONOTYPES</Link>
       </div>
     </div>

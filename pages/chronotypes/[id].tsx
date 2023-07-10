@@ -14,7 +14,7 @@ export default function Chronotype() {
     <Layout>
       <div className="text-center flex flex-col justify-center items-center gap-6">
         <h1>{chronotype.title}</h1>
-        <Image src={chronotype.image} alt="Chronotype" />
+        <Image src={chronotype.image} alt="Chronotype" width={600} height={600} />
         <p className="max-w-3xl">{chronotype.description}</p>
       </div>
     </Layout>

@@ -17,10 +17,10 @@ export default function Chronotypes() {
             These chronotypes are dolphin, lion, bear, and wolf.
           </p>
         </div>
-        <div className="flex flex-row justify-center flex-wrap gap-4 mt-5">
+        <div className="flex flex-row justify-center items-center flex-wrap gap-2 mt-5 max-w-8xl">
           {CHRONOTYPES.map((c) => (
-            <Link className="w-4/12" key={c.id} href={`/chronotypes/${c.id}`}>
-              <Image className="rounded" src={c.image} alt="Chronotype" />
+            <Link className="lg:w-4/12 flex justify-center items-center" key={c.id} href={`/chronotypes/${c.id}`}>
+              <Image className="rounded" src={c.image} alt="Chronotype" width={500} height={500} />
             </Link>
           ))}
         </div>

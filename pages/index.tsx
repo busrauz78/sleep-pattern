@@ -8,7 +8,13 @@ export default function Home() {
         <div>
           <h1 className="font-bold">What is your chronotype?</h1>
         </div>
-        <Image className="max-w-xl" src="/assets/about.png" alt="Chronotype" />
+        <Image
+          className="max-w-xl"
+          src="/assets/about.png"
+          alt="Chronotype"
+          width={500}
+          height={500}
+        />
         <div className="max-w-3xl text-center">
           <p>
             We’re all familiar with the phrases “early bird” and “night owl.”
